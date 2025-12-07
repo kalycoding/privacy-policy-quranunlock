@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use - Quran Unlock | شروط الاستخدام - فتح القرآن</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        body[dir="rtl"] {
+            font-family: 'Arial', 'Tahoma', sans-serif;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .language-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        [dir="rtl"] .language-toggle {
+            right: auto;
+            left: 20px;
+        }
+
+        .language-toggle:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .language-toggle::before {
+            content: "🌐";
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .last-updated {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        [dir="rtl"] ul {
+            padding-left: 0;
+            padding-right: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #fdcb6e;
+        }
+
+        [dir="rtl"] .highlight {
+            border-left: none;
+            border-right: 5px solid #fdcb6e;
+        }
+
+        .important {
+            font-weight: 700;
+            color: #d63031;
+        }
+
+        .contact-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #e0e0e0;
+            margin: 30px 0;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .language-toggle {
+                position: static;
+                margin-bottom: 20px;
+                display: inline-flex;
+            }
+        }
+    </style>
+</head>
+<body dir="ltr">
+    <div class="container fade-in">
+        <div class="header">
+            <button class="language-toggle" onclick="toggleLanguage()">
+                <span id="lang-text">العربية</span>
+            </button>
+            <h1 id="main-title">Terms of Use for Quran Unlock</h1>
+            <p class="last-updated"><strong id="last-updated-label">Last Updated:</strong> <span id="last-updated-date">December 7, 2025</span></p>
+        </div>
+
+        <div class="content" id="content">
+            <!-- English Content -->
+            <div id="english-content">
+                <h2>Agreement to Terms</h2>
+                <p>By downloading, installing, or using Quran Unlock ("the App"), you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the App.</p>
+
+                <h2>Description of Service</h2>
+                <p>Quran Unlock is a mobile application designed to help users develop consistent Quran reading habits by temporarily restricting access to selected apps until daily reading goals are completed.</p>
+
+                <h2>Subscription Terms</h2>
+                
+                <h3>Free Features</h3>
+                <p>The App provides basic functionality for free, including:</p>
+                <ul>
+                    <li>Daily Quran reading tracking</li>
+                    <li>Basic app blocking functionality</li>
+                    <li>Morning and Evening Azkar</li>
+                    <li>Streak tracking</li>
+                </ul>
+
+                <h3>Premium Subscription (Quran Unlock Pro)</h3>
+                <p>Premium features are available through a monthly subscription and include:</p>
+                <ul>
+                    <li><strong>Pause Blocking:</strong> Temporarily pause app restrictions</li>
+                    <li><strong>Restore Streaks:</strong> Recover lost reading streaks</li>
+                    <li><strong>Premium Azkar:</strong> Sleep, Waking Up, After Prayer, and Protection collections</li>
+                    <li><strong>Tilawah Challenges:</strong> Advanced reading challenges and goals</li>
+                </ul>
+
+                <div class="highlight">
+                    <h3>Subscription Pricing</h3>
+                    <p><strong>Price:</strong> $4.99/month (USD) or equivalent in local currency</p>
+                    <p><strong>Billing:</strong> Monthly, auto-renewable</p>
+                    <p><strong>Free Trial:</strong> If offered, trial converts to paid subscription unless cancelled</p>
+                </div>
+
+                <h3>Auto-Renewal</h3>
+                <p>Your subscription will <strong class="important">automatically renew</strong> each month unless you cancel at least 24 hours before the end of the current billing period. Your account will be charged for renewal within 24 hours prior to the end of the current period.</p>
+
+                <h3>How to Cancel</h3>
+                <p>You can cancel your subscription at any time:</p>
+                <ul>
+                    <li><strong>iOS:</strong> Settings → [Your Name] → Subscriptions → Quran Unlock → Cancel Subscription</li>
+                    <li><strong>Android:</strong> Google Play Store → Menu → Subscriptions → Quran Unlock → Cancel</li>
+                </ul>
+                <p>Cancellation takes effect at the end of the current billing period. You will retain access to premium features until then.</p>
+
+                <h3>Refunds</h3>
+                <p>All purchases are processed through Apple App Store or Google Play Store. Refund requests must be made directly to:</p>
+                <ul>
+                    <li><strong>Apple:</strong> <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a></li>
+                    <li><strong>Google:</strong> <a href="https://support.google.com/googleplay/answer/2479637" target="_blank">Google Play Refund Policy</a></li>
+                </ul>
+                <p>We do not have direct access to process refunds for in-app purchases.</p>
+
+                <h2>User Responsibilities</h2>
+                <p>By using the App, you agree to:</p>
+                <ul>
+                    <li>Use the App only for its intended purpose of Quran reading and spiritual development</li>
+                    <li>Not attempt to circumvent, disable, or interfere with the app blocking functionality</li>
+                    <li>Not reverse engineer, decompile, or disassemble the App</li>
+                    <li>Not use the App for any illegal or unauthorized purpose</li>
+                    <li>Provide accurate information when required</li>
+                </ul>
+
+                <h2>App Permissions</h2>
+                <p>The App requires certain permissions to function properly:</p>
+                <ul>
+                    <li><strong>iOS - Screen Time API:</strong> Required to block and unblock apps</li>
+                    <li><strong>Android - Usage Access/Accessibility:</strong> Required to detect and manage app usage</li>
+                </ul>
+                <p>These permissions are used solely for the App's core functionality and not for data collection.</p>
+
+                <h2>Intellectual Property</h2>
+                <p>All content, features, and functionality of the App, including but not limited to text, graphics, logos, and software, are the property of Quran Unlock and are protected by copyright, trademark, and other intellectual property laws.</p>
+                <p>Quranic text and Islamic supplications (Azkar) are from authentic Islamic sources and are shared for spiritual benefit.</p>
+
+                <h2>Disclaimer of Warranties</h2>
+                <p>The App is provided "as is" and "as available" without warranties of any kind, either express or implied. We do not guarantee that:</p>
+                <ul>
+                    <li>The App will be uninterrupted or error-free</li>
+                    <li>Defects will be corrected</li>
+                    <li>The App will meet your specific requirements</li>
+                </ul>
+
+                <h2>Limitation of Liability</h2>
+                <p>To the maximum extent permitted by law, Quran Unlock shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the App.</p>
+
+                <h2>Changes to the App</h2>
+                <p>We reserve the right to:</p>
+                <ul>
+                    <li>Modify or discontinue features at any time</li>
+                    <li>Update subscription pricing with reasonable notice</li>
+                    <li>Change these Terms of Use</li>
+                </ul>
+                <p>Continued use of the App after changes constitutes acceptance of the new terms.</p>
+
+                <h2>Termination</h2>
+                <p>We may terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe:</p>
+                <ul>
+                    <li>Violates these Terms of Use</li>
+                    <li>Is harmful to other users or the App</li>
+                    <li>Is fraudulent or illegal</li>
+                </ul>
+
+                <h2>Governing Law</h2>
+                <p>These Terms shall be governed by and construed in accordance with applicable laws, without regard to conflict of law principles.</p>
+
+                <h2>Severability</h2>
+                <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will continue in full force and effect.</p>
+
+                <div class="contact-section">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions about these Terms of Use, please contact us at:</p>
+                    <p><strong>Email:</strong> <a href="mailto:kalycodes@gmail.com">kalycodes@gmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/kalycoding" target="_blank">https://github.com/kalycoding</a></p>
+                </div>
+
+                <hr>
+
+                <div class="highlight">
+                    <h2>Summary</h2>
+                    <p><strong>Subscription:</strong> $4.99/month, auto-renews monthly</p>
+                    <p><strong>Cancel:</strong> Anytime in device Settings → Subscriptions</p>
+                    <p><strong>Refunds:</strong> Through Apple App Store or Google Play</p>
+                    <p><strong>Your data:</strong> Stays on your device (see Privacy Policy)</p>
+                </div>
+
+                <p style="text-align: center; margin-top: 30px;"><strong>By using Quran Unlock, you agree to these Terms of Use.</strong></p>
+            </div>
+
+            <!-- Arabic Content -->
+            <div id="arabic-content" style="display: none;">
+                <h2>الموافقة على الشروط</h2>
+                <p>من خلال تنزيل أو تثبيت أو استخدام فتح القرآن ("التطبيق")، فإنك توافق على الالتزام بشروط الاستخدام هذه. إذا كنت لا توافق على هذه الشروط، يرجى عدم استخدام التطبيق.</p>
+
+                <h2>وصف الخدمة</h2>
+                <p>فتح القرآن هو تطبيق للهاتف المحمول مصمم لمساعدة المستخدمين على تطوير عادات قراءة القرآن المتسقة من خلال تقييد الوصول مؤقتًا إلى التطبيقات المحددة حتى يتم إكمال أهداف القراءة اليومية.</p>
+
+                <h2>شروط الاشتراك</h2>
+                
+                <h3>الميزات المجانية</h3>
+                <p>يوفر التطبيق الوظائف الأساسية مجانًا، بما في ذلك:</p>
+                <ul>
+                    <li>تتبع قراءة القرآن اليومية</li>
+                    <li>وظيفة حظر التطبيقات الأساسية</li>
+                    <li>أذكار الصباح والمساء</li>
+                    <li>تتبع السلسلة</li>
+                </ul>
+
+                <h3>الاشتراك المميز (فتح القرآن برو)</h3>
+                <p>الميزات المميزة متاحة من خلال اشتراك شهري وتشمل:</p>
+                <ul>
+                    <li><strong>إيقاف الحظر مؤقتًا:</strong> إيقاف قيود التطبيق مؤقتًا</li>
+                    <li><strong>استعادة السلسلة:</strong> استرداد سلاسل القراءة المفقودة</li>
+                    <li><strong>الأذكار المميزة:</strong> مجموعات النوم والاستيقاظ وما بعد الصلاة والحماية</li>
+                    <li><strong>تحديات التلاوة:</strong> تحديات وأهداف قراءة متقدمة</li>
+                </ul>
+
+                <div class="highlight">
+                    <h3>تسعير الاشتراك</h3>
+                    <p><strong>السعر:</strong> 4.99 دولار/شهر (دولار أمريكي) أو ما يعادله بالعملة المحلية</p>
+                    <p><strong>الفواتير:</strong> شهرية، تجديد تلقائي</p>
+                    <p><strong>التجربة المجانية:</strong> إذا تم تقديمها، تتحول التجربة إلى اشتراك مدفوع ما لم يتم الإلغاء</p>
+                </div>
+
+                <h3>التجديد التلقائي</h3>
+                <p>سيتم <strong class="important">تجديد اشتراكك تلقائيًا</strong> كل شهر ما لم تقم بالإلغاء قبل 24 ساعة على الأقل من نهاية فترة الفوترة الحالية. سيتم محاسبة حسابك على التجديد خلال 24 ساعة قبل نهاية الفترة الحالية.</p>
+
+                <h3>كيفية الإلغاء</h3>
+                <p>يمكنك إلغاء اشتراكك في أي وقت:</p>
+                <ul>
+                    <li><strong>iOS:</strong> الإعدادات ← [اسمك] ← الاشتراكات ← فتح القرآن ← إلغاء الاشتراك</li>
+                    <li><strong>Android:</strong> متجر Google Play ← القائمة ← الاشتراكات ← فتح القرآن ← إلغاء</li>
+                </ul>
+                <p>يسري الإلغاء في نهاية فترة الفوترة الحالية. ستحتفظ بالوصول إلى الميزات المميزة حتى ذلك الحين.</p>
+
+                <h3>المبالغ المستردة</h3>
+                <p>تتم معالجة جميع عمليات الشراء من خلال Apple App Store أو Google Play Store. يجب تقديم طلبات استرداد الأموال مباشرة إلى:</p>
+                <ul>
+                    <li><strong>Apple:</strong> <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a></li>
+                    <li><strong>Google:</strong> <a href="https://support.google.com/googleplay/answer/2479637" target="_blank">سياسة استرداد Google Play</a></li>
+                </ul>
+                <p>ليس لدينا وصول مباشر لمعالجة المبالغ المستردة لعمليات الشراء داخل التطبيق.</p>
+
+                <h2>مسؤوليات المستخدم</h2>
+                <p>باستخدام التطبيق، فإنك توافق على:</p>
+                <ul>
+                    <li>استخدام التطبيق فقط لغرضه المقصود وهو قراءة القرآن والتطور الروحي</li>
+                    <li>عدم محاولة التحايل على وظيفة حظر التطبيق أو تعطيلها أو التدخل فيها</li>
+                    <li>عدم الهندسة العكسية أو فك ترجمة أو تفكيك التطبيق</li>
+                    <li>عدم استخدام التطبيق لأي غرض غير قانوني أو غير مصرح به</li>
+                    <li>تقديم معلومات دقيقة عند الحاجة</li>
+                </ul>
+
+                <h2>أذونات التطبيق</h2>
+                <p>يتطلب التطبيق أذونات معينة للعمل بشكل صحيح:</p>
+                <ul>
+                    <li><strong>iOS - Screen Time API:</strong> مطلوب لحظر وإلغاء حظر التطبيقات</li>
+                    <li><strong>Android - الوصول للاستخدام/إمكانية الوصول:</strong> مطلوب لاكتشاف وإدارة استخدام التطبيق</li>
+                </ul>
+                <p>تُستخدم هذه الأذونات فقط لوظائف التطبيق الأساسية وليس لجمع البيانات.</p>
+
+                <h2>الملكية الفكرية</h2>
+                <p>جميع المحتويات والميزات والوظائف الخاصة بالتطبيق، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات والشعارات والبرامج، هي ملك لفتح القرآن ومحمية بموجب حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى.</p>
+                <p>النص القرآني والأدعية الإسلامية (الأذكار) من مصادر إسلامية موثوقة ويتم مشاركتها للفائدة الروحية.</p>
+
+                <h2>إخلاء المسؤولية</h2>
+                <p>يتم تقديم التطبيق "كما هو" و"كما هو متاح" دون ضمانات من أي نوع، صريحة أو ضمنية. نحن لا نضمن أن:</p>
+                <ul>
+                    <li>سيكون التطبيق متاحًا دون انقطاع أو خالٍ من الأخطاء</li>
+                    <li>سيتم تصحيح العيوب</li>
+                    <li>سيلبي التطبيق متطلباتك المحددة</li>
+                </ul>
+
+                <h2>تحديد المسؤولية</h2>
+                <p>إلى أقصى حد يسمح به القانون، لن يكون فتح القرآن مسؤولاً عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو عقابية ناتجة عن استخدامك للتطبيق أو عدم قدرتك على استخدامه.</p>
+
+                <h2>التغييرات على التطبيق</h2>
+                <p>نحتفظ بالحق في:</p>
+                <ul>
+                    <li>تعديل أو إيقاف الميزات في أي وقت</li>
+                    <li>تحديث أسعار الاشتراك مع إشعار معقول</li>
+                    <li>تغيير شروط الاستخدام هذه</li>
+                </ul>
+                <p>يشكل استمرار استخدام التطبيق بعد التغييرات قبولًا للشروط الجديدة.</p>
+
+                <h2>الإنهاء</h2>
+                <p>قد ننهي أو نعلق وصولك إلى التطبيق في أي وقت، دون إشعار مسبق، لسلوك نعتقد أنه:</p>
+                <ul>
+                    <li>ينتهك شروط الاستخدام هذه</li>
+                    <li>ضار للمستخدمين الآخرين أو التطبيق</li>
+                    <li>احتيالي أو غير قانوني</li>
+                </ul>
+
+                <h2>القانون الحاكم</h2>
+                <p>تخضع هذه الشروط وتُفسر وفقًا للقوانين المعمول بها، بغض النظر عن مبادئ تعارض القوانين.</p>
+
+                <h2>قابلية الفصل</h2>
+                <p>إذا تبين أن أي حكم من هذه الشروط غير قابل للتنفيذ، فستظل الأحكام المتبقية سارية المفعول والتأثير الكامل.</p>
+
+                <div class="contact-section">
+                    <h2>اتصل بنا</h2>
+                    <p>إذا كان لديك أي أسئلة حول شروط الاستخدام هذه، يرجى الاتصال بنا على:</p>
+                    <p><strong>البريد الإلكتروني:</strong> <a href="mailto:kalycodes@gmail.com">kalycodes@gmail.com</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/kalycoding" target="_blank">https://github.com/kalycoding</a></p>
+                </div>
+
+                <hr>
+
+                <div class="highlight">
+                    <h2>ملخص</h2>
+                    <p><strong>الاشتراك:</strong> 4.99 دولار/شهر، يتجدد تلقائيًا شهريًا</p>
+                    <p><strong>الإلغاء:</strong> في أي وقت في إعدادات الجهاز ← الاشتراكات</p>
+                    <p><strong>المبالغ المستردة:</strong> من خلال Apple App Store أو Google Play</p>
+                    <p><strong>بياناتك:</strong> تبقى على جهازك (انظر سياسة الخصوصية)</p>
+                </div>
+
+                <p style="text-align: center; margin-top: 30px;"><strong>باستخدام فتح القرآن، فإنك توافق على شروط الاستخدام هذه.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentLang = 'en';
+
+        function toggleLanguage() {
+            const body = document.body;
+            const englishContent = document.getElementById('english-content');
+            const arabicContent = document.getElementById('arabic-content');
+            const langText = document.getElementById('lang-text');
+            const mainTitle = document.getElementById('main-title');
+            const lastUpdatedLabel = document.getElementById('last-updated-label');
+            const lastUpdatedDate = document.getElementById('last-updated-date');
+
+            if (currentLang === 'en') {
+                body.setAttribute('dir', 'rtl');
+                englishContent.style.display = 'none';
+                arabicContent.style.display = 'block';
+                langText.textContent = 'English';
+                mainTitle.textContent = 'شروط الاستخدام لتطبيق فتح القرآن';
+                lastUpdatedLabel.textContent = 'آخر تحديث:';
+                lastUpdatedDate.textContent = '7 ديسمبر 2025';
+                currentLang = 'ar';
+                body.setAttribute('lang', 'ar');
+            } else {
+                body.setAttribute('dir', 'ltr');
+                englishContent.style.display = 'block';
+                arabicContent.style.display = 'none';
+                langText.textContent = 'العربية';
+                mainTitle.textContent = 'Terms of Use for Quran Unlock';
+                lastUpdatedLabel.textContent = 'Last Updated:';
+                lastUpdatedDate.textContent = 'December 7, 2025';
+                currentLang = 'en';
+                body.setAttribute('lang', 'en');
+            }
+
+            document.querySelector('.content').classList.remove('fade-in');
+            setTimeout(() => {
+                document.querySelector('.content').classList.add('fade-in');
+            }, 10);
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const browserLang = navigator.language || navigator.userLanguage;
+            if (browserLang.startsWith('ar')) {
+                toggleLanguage();
+            }
+        });
+    </script>
+</body>
+</html>
